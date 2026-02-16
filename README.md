@@ -1,5 +1,5 @@
 # DAM-2026-TravelAgency-Torres
-# NeoHorizon - Plataforma de Gestion de Viajes
+# NeoHorizon - Plataforma de Gestion de Viajes - David Torres López
 
 Sistema web desarrollado en PHP y MySQL para la administracion de destinos turisticos y gestion de reservas de usuarios.
 
