@@ -5,10 +5,10 @@ require_once __DIR__ . '/../clases/Viaje.php';
 
 $db = (new Database())->getConnection();
 
-// --- LÓGICA DEL BUSCADOR ACTUALIZADA ---
+// --- LÓGICA DEL BUSCADOR ---
 $titulo_search = $_GET['titulo'] ?? '';
 $precio_max = $_GET['precio_max'] ?? '';
-$tipo_search = $_GET['tipo'] ?? ''; // Nuevo filtro
+$tipo_search = $_GET['tipo'] ?? ''; 
 
 $query = "SELECT * FROM viajes WHERE 1=1";
 $params = [];
@@ -175,7 +175,7 @@ include __DIR__ . '/../vistas/nav.php';
             <?php endwhile; ?>
         <?php else: ?>
             <div style="grid-column: 1 / -1; text-align: center; padding: 50px; color: #666;">
-                <h3>No se han encontrado resultados para tu búsqueda. 🚀</h3>
+                <h3>No se han encontrado resultados para tu búsqueda. </h3>
             </div>
         <?php endif; ?>
 
