@@ -36,17 +36,12 @@ if ($_POST) {
                   VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
         $stmt = $db->prepare($query);
 
-        if ($stmt->execute([$titulo, $descripcion, $itinerario, $fecha, $precio, $plazas, $tipo, $nombre_imagen])) {
-            echo "<script>alert('Viaje añadido con éxito'); window.location='index.php';</script>";
+        if ($stmt) {
+            // Redirigir a la página principal
+            // Usamos ../ para salir de 'admin' y entramos en 'public/index.php'
+            header("Location: ../public/index.php?mensaje=viaje_creado");
+            exit(); // Es fundamental poner exit() para que el script se detenga aquí
         }
-    } else {
-        echo "<script>alert('Error al subir la imagen');</script>";
-    }
-    if ($stmt) {
-        // Redirigir a la página principal
-        // Usamos ../ para salir de 'admin' y entramos en 'public/index.php'
-        header("Location: ../public/index.php?mensaje=viaje_creado");
-        exit(); // Es fundamental poner exit() para que el script se detenga aquí
     }
 }
 ?>
@@ -106,4 +101,4 @@ if ($_POST) {
     </form>
 </section>
 
-<?php include '../vistas/footer.php'; ?>
+<?php include '../vistas/footer.php' ?>

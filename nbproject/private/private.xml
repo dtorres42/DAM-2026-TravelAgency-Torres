@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/public/index.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/public/login.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/public/detalle_viaje.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/public/privacidad.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/public/registro.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/clases/Database.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/clases/Viaje.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/clases/Usuario.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/public/logout.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/vistas/nav.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/config.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/README.md</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/admin/cancelar_reserva.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/admin/editar_usuario.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/admin/eliminar_usuarios.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/assets/img/brasil.jpg</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/assets/img/capitales.jpg</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/assets/img/capitales2.jpg</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/assets/img/estatuadelalibertad.jpg</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/assets/img/asia.jpg</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/public/aviso_legal.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/public/buscador.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/public/terminos.php</file>
+            <file>file:/G:/ProyectoViajes/ProyectoViajes/app/admin/insertar_viaje.php</file>
+        </group>
+    </open-files>
+</project-private>

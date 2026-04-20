@@ -22,7 +22,7 @@ class Viaje {
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
-    // ESTA ES LA FUNCIÓN QUE TE FALTA (Imagen b4c338.png)
+    
     public function descontarPlaza($id) {
         $query = "UPDATE " . $this->table_name . " 
                   SET plazas_disponibles = plazas_disponibles - 1 
